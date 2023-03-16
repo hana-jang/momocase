@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/momocase/static/css/main.06d48895.css",
-    "main.js": "/momocase/static/js/main.829152ac.js",
+    "main.css": "/momocase/static/css/main.6aa45bca.css",
+    "main.js": "/momocase/static/js/main.6d6cb636.js",
     "static/js/787.599f14e2.chunk.js": "/momocase/static/js/787.599f14e2.chunk.js",
     "index.html": "/momocase/index.html",
-    "main.06d48895.css.map": "/momocase/static/css/main.06d48895.css.map",
-    "main.829152ac.js.map": "/momocase/static/js/main.829152ac.js.map",
+    "main.6aa45bca.css.map": "/momocase/static/css/main.6aa45bca.css.map",
+    "main.6d6cb636.js.map": "/momocase/static/js/main.6d6cb636.js.map",
     "787.599f14e2.chunk.js.map": "/momocase/static/js/787.599f14e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06d48895.css",
-    "static/js/main.829152ac.js"
+    "static/css/main.6aa45bca.css",
+    "static/js/main.6d6cb636.js"
   ]
 }
