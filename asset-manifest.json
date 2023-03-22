@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.22fdaece.css",
-    "main.js": "/static/js/main.e247adb5.js",
-    "static/js/787.599f14e2.chunk.js": "/static/js/787.599f14e2.chunk.js",
-    "index.html": "/index.html",
-    "main.22fdaece.css.map": "/static/css/main.22fdaece.css.map",
-    "main.e247adb5.js.map": "/static/js/main.e247adb5.js.map",
-    "787.599f14e2.chunk.js.map": "/static/js/787.599f14e2.chunk.js.map"
+    "main.css": "/momocase/static/css/main.27df8dfa.css",
+    "main.js": "/momocase/static/js/main.2c0a2aaf.js",
+    "static/js/787.599f14e2.chunk.js": "/momocase/static/js/787.599f14e2.chunk.js",
+    "index.html": "/momocase/index.html",
+    "main.27df8dfa.css.map": "/momocase/static/css/main.27df8dfa.css.map",
+    "main.2c0a2aaf.js.map": "/momocase/static/js/main.2c0a2aaf.js.map",
+    "787.599f14e2.chunk.js.map": "/momocase/static/js/787.599f14e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22fdaece.css",
-    "static/js/main.e247adb5.js"
+    "static/css/main.27df8dfa.css",
+    "static/js/main.2c0a2aaf.js"
   ]
 }
