@@ -1,0 +1,77 @@
+.table {
+  width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+}
+.table tbody tr td:not(:nth-of-type(2)) {
+  padding-top: 40px;
+}
+@media (max-width: 1180px) {
+  .table tbody tr td:nth-of-type(3), .table tbody tr td:nth-of-type(4) {
+    padding-top: 28px;
+  }
+}
+.table tbody tr td:nth-of-type(1) {
+  width: 100px;
+}
+.table tbody tr td:nth-of-type(2) img {
+  width: 90px;
+}
+.table tbody tr td:nth-of-type(5) button {
+  width: 30px;
+}
+.table tbody tr td:nth-of-type(5) button:hover {
+  position: relative;
+  top: 2px;
+  box-shadow: 0 6px 10px rgba(0, 0, 20, 0.1);
+}
+.table tbody tr td:nth-of-type(5) {
+  width: 5%;
+}
+.table tbody tr td:nth-of-type(5) div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.table tbody tr td:nth-of-type(5) .countbtn {
+  width: 3rem;
+  height: 2.85rem;
+  border: 1px solid #888;
+  background-color: #fff;
+}
+.table tbody tr td:nth-of-type(5) input[type=text] {
+  width: 5rem;
+  height: 2.9rem;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.table tbody tr td:nth-of-type(7) {
+  width: 200px;
+}
+.table tbody tr td:nth-of-type(7) .btn {
+  width: 90px;
+  margin: 0;
+  padding: 2px 0;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff9800;
+}
+.table tbody tr td:nth-of-type(7) .btn:hover {
+  background-color: #f57c00;
+}
+.table tbody .sortbtn {
+  width: 12rem;
+  margin: 20px 0 0;
+  padding: 3px 0;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff9800;
+}
+.table tbody .sortbtn:focus {
+  box-shadow: none;
+}
+.table tbody .sortbtn:hover {
+  background-color: #f57c00;
+}
