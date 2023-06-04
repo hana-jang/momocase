@@ -1,0 +1,34 @@
+[
+    {
+        "id":4,
+        "imgUrl":"img/new5.jpg",
+        "title":"Lolli ♠ 하드",
+        "price":"20,000원",
+        "discount":"9,800원",
+        "percent":"51%"
+    },
+    {
+        "id":5,
+        "imgUrl":"img/new6.jpg",
+        "title":"[투명] Molli",
+        "price":"19,000원",
+        "discount":"8,800원",
+        "percent":"54%"
+    },
+    {
+        "id":6,
+        "imgUrl":"img/new7.jpg",
+        "title":"토이블럭★카드수납",
+        "price":"22,000원",
+        "discount":"11,800원",
+        "percent":"46%"
+    },
+    {
+        "id":7,
+        "imgUrl":"img/new8.jpg",
+        "title":"[투명] 퍼피푸들",
+        "price":"19,000원",
+        "discount":"8,800원",
+        "percent":"54%"
+    }
+]

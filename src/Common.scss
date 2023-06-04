@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:62.5%;
+}
+ul,li,ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333 !important;
+    font-size:1.6rem;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    position:relative;
+}
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    width: 100%;
+    position:fixed;
+    z-index:10;
+    background-color:#fff;
+    font-size:1.6rem;
+
+    a:hover {
+        color: #333 !important; 
+    }
+    
+    a:focus{
+        color:rgba(0,0,0,.55) !important;
+    }
+
+    .nav-link{
+        padding-left:1.5rem !important;
+        padding-right:1.5rem !important;
+    }
+
+
+    .header-wrap {
+        width: 79vw;
+        margin: 0 auto;
+        @media(max-width:1399px){
+            width:90vw;
+        }
+        .logo {
+            width: 165px;
+            height: 60px;
+            background: url("../public/img/logo.png") 50% 5% / contain no-repeat;
+            cursor:pointer;
+        }
+
+        .justify-content-end{
+            justify-content:flex-start !important;
+        }
+
+        .navbar-nav-scroll{
+            overflow-y:visible;
+            max-height:100vh;
+            .nav-link{
+                color:#333;
+            }
+        }
+        
+        .dropdown-a{
+            font-size:1.6rem;
+        }
+
+        .dropdown-a:focus{
+            background:#fff;
+            color:#333;
+        }
+
+        .me-2{
+            border:none;
+            border-bottom:1px solid #ccc;
+            border-radius: 0;
+            background-color:transparent;
+            font-size:1.6rem;
+            &:focus{
+                box-shadow: none;
+            }
+        }
+        .mb-3{
+            margin:0 !important;
+        }
+        .cartimg{
+            width:22px;
+        }
+        .navbar-toggler:focus{
+            box-shadow: none;
+        }
+    }
+}
+
+
+
+footer {
+    width: 100%;
+    background-color: #f6f6f6;
+    color: #333;
+    margin: 0 auto;
+    padding:30px 0;
+    font-size: 1.6rem;
+    @media(max-width:575px){
+        padding-right:var(--bs-gutter-x,.75rem);
+        padding-left:var(--bs-gutter-x,.75rem);
+    }
+    .container {
+        .row {
+            &:first-child{
+                padding:30px 0;
+
+                a:hover{
+                    color:#333;
+                }
+                h3{
+                    padding-bottom:15px;
+                    font-weight: bold;                
+                }
+                ul{
+                    li{
+                        font-size:1.4rem;
+                    }
+                }
+                .col-md-6 {
+                    padding-bottom:1rem;
+                    img {
+                        width: 150px;
+                        padding-bottom:20px;
+                    }
+                    ul{
+                        display:flex;
+                        li{
+                            font-size:1.4rem;
+                            padding:3px 0;
+                            &:not(:first-child){
+                                padding:3px 5px;
+                            }
+                        }
+                    }
+                }
+                .customer {
+                    padding-bottom:1rem;
+                    ul {
+                        li {
+                            padding: 3px 0;
+                        }
+                    }
+                }
+                .community{
+                    ul{
+                        &:nth-of-type(1){
+                            float:left;
+                            padding-right:30px;
+                        }
+                        li{
+                            padding:2px 0;
+                        }
+                    }
+                }
+            }
+            
+            .col-md-12{
+                text-align: center;
+                p{
+                    padding-top:25px;
+                }
+            }
+        }
+    }
+}
+
+.topbtn{
+    position:fixed;
+    bottom:30px;
+    right:30px;
+    z-index:10;
+    font-size:1.4rem;
+    padding:15px 13px;
+    border:1px solid #ccc;
+    border-radius: 50%;
+    background-color:#fff;
+    opacity:0;
+}
