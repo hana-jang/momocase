@@ -4,3 +4,4 @@
 
 - Routes, Component, SCSS 파일은 "src" 폴더에서 확인하실 수 있습니다.
 - site : https://hana-jang.github.io/momocase/
+- -문서화 PDF : https://hana-jang.github.io/momocase/momocase.pdf
