@@ -53,7 +53,7 @@ function Header() {
                       placeholder="Search"
                       className="me-2"
                       aria-label="Search"/>
-                    <Nav.Link href="#action1">
+                    <Nav.Link onClick={()=>{navigate('/')}}>
                       <img src={process.env.PUBLIC_URL + "/img/search.png"} alt="search" />
                     </Nav.Link>
                     <Nav.Link onClick={()=>{navigate("/login")}}>
