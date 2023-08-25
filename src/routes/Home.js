@@ -85,7 +85,7 @@ function Home(props) {
                         })
                     }
                 </Row>
-                <div className="btnbox">
+                <div className="btnbox" id="new">
                     <Button variant="link" count={count} onClick={() => {
                         if (count === 1) {
                             axios.get("https://hana-jang.github.io/momocase/new1.json").then((result) => {
